@@ -1,4 +1,4 @@
-describe("FizzBuzz", function() {
+describe("FizzBuzz.play", function() {
   var fizzBuzz;
 
   beforeEach(function() {
@@ -32,4 +32,10 @@ describe("FizzBuzz", function() {
   it("returns 'fizzbuzz' when given 15", function() {
     expect(fizzBuzz.play(15)).toEqual("fizzbuzz");
   })
+
+  it("uses the _isDivisibleBy function to return a boolean value", function() {
+    expect(fizzBuzz.isDivisibleBy(12, 3)).toEqual(true)
+  })
+
 });
+
