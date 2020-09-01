@@ -1,7 +1,7 @@
 class FizzBuzz {
 
   _isDivisibleBy(num, divisor){
-    num % divisor === 0
+    return num % divisor === 0
   }
 
   play(num){

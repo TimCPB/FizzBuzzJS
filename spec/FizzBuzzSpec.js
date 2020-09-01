@@ -34,7 +34,8 @@ describe("FizzBuzz.play", function() {
   })
 
   it("uses the _isDivisibleBy function to return a boolean value", function() {
-    expect(fizzBuzz.isDivisibleBy(12, 3)).toEqual(true)
+    expect(fizzBuzz._isDivisibleBy(12, 3)).toEqual(true)
+    expect(fizzBuzz._isDivisibleBy(20, 3)).toEqual(false)
   })
 
 });
