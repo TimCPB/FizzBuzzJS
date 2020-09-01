@@ -13,7 +13,7 @@ In case you've forgotten the rules of FizzBuzz:
 | 2     | 2        |
 | 3     | fizz     |
 | 5     | buzz     |
-| 6     | 6        |
+| 7     | 7        |
 | 9     | fizz     |
 | 10    | buzz     |
 | 15    | fizzbuzz |
