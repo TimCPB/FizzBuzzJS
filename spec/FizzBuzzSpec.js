@@ -24,4 +24,8 @@ describe("FizzBuzz", function() {
   it("returns 'fizz' when given 9", function() {
     expect(fizzBuzz(9)).toEqual("fizz");
   })
+
+  it("returns buzz when given 10", function() {
+    expect(fizzBuzz(10)).toEqual("buzz");
+  })
 });
