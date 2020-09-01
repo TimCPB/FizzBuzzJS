@@ -1,5 +1,5 @@
 describe("FizzBuzz", function() {
-  var fizzBuzz;
+  // var fizzBuzz;
 
   // beforeEach(function() {
   //   var fizzBuzz = new FizzBuzz();
